@@ -1,0 +1,33 @@
+.modal-input {
+  display: flex;
+  justify-content: start;
+}
+
+.modal-input p {
+  color: var(--light-theme-text);
+  padding: 1rem;
+}
+
+.modal-input img {
+  width: 17px;
+  height: 24px;
+}
+
+.modal-input-two {
+  margin-left: 5px;
+  background-color: var(--light-theme);
+}
+
+.modalButton {
+  background-color: var(--light-theme);
+  padding: 1rem;
+}
+
+.overlay {
+  background-color: #6e809888;
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}

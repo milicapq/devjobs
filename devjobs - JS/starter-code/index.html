@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/modal.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
+  <link rel="stylesheet" href="./styles/tablet.css">
+  <link rel="stylesheet" href="./styles/desktop.css">
+  <link rel="stylesheet" href="./styles/advertismentdesktop.css">
+  <link rel="stylesheet" href="./styles/toast.css">
+  <title>Frontend Mentor | devjobs-web-app</title>
+  <script src="./js/data.js" defer></script>
+  <script src="./js/create-node.js" defer></script>
+  <script src="./js/advertisment.js" defer></script>
+  <script src="./js/index.js" defer></script>
+  <script src="./js/searchButton.js" defer></script>
+  <script src="./js/modal.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <a href="./index.html"> <img src="./assets/desktop/logo.svg" alt="" /></a>
+    <div class="switch-input">
+      <img class="logo" src="./assets/desktop/icon-sun.svg" alt="" />
+      <div class="switch">
+        <input type="checkbox" name="page" id="switch" />
+        <label for="switch">
+          <span></span>
+        </label>
+      </div>
+      <img src="./assets/desktop/icon-moon.svg" alt="" />
+    </div>
+  </header>
+
+  <div class="filter">
+    <input type="text" name="page" id="filter" placeholder="Filter by title..." />
+    <img class="filterImg" src="./assets/mobile/icon-filter.svg" />
+    <button class='filter-button'><img src="./assets/desktop/icon-search.svg" /></button>
+    <div class="filter-location"> <img src="./assets/desktop/icon-location.svg" alt="" />
+      <input type="text" name="page" id="location-top" placeholder="Filter by location..." />
+    </div>
+    <div class="filter-check">
+      <input type="checkbox" name="pages" id="fulltime" />
+      <label for="full-time">
+        <p>Full Time Only</p>
+      </label>
+    </div>
+    <button class="searchButtons">Search</button>
+  </div>
+  <main></main>
+  <div class="toast">
+    <div id="myToast">
+      <h3>No results</h3>
+      <a href="./index.html"><button>COME BACK</button></a>
+    </div>
+  </div>
+  <div class="overlay">
+    <div id="myModal" class="modal">
+      <div class="modalButton">
+        <div class="modal-input-two">
+          <img src="./assets/desktop/icon-location.svg" alt="" />
+          <input type="text" name="page" id="location" placeholder="Filter by location..." />
+        </div>
+        <div class="modal-input">
+          <input type="checkbox" name="pages" id="fulltime" />
+          <label for="full-time">
+            <p>Full Time Only</p>
+          </label>
+        </div>
+        <button class="searchButton">Search</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

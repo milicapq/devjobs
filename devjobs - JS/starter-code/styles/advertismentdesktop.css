@@ -1,0 +1,275 @@
+@media screen and (min-width: 992px) {
+  .advertisment,
+  .content {
+    background-color: var(--light-theme);
+    width: 750px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    padding: 2.5rem;
+    margin-top: -300px;
+  }
+
+  .advertisment {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -300px;
+  }
+
+  .first {
+    padding: 1rem;
+    margin-left: -10px;
+  }
+
+  .website {
+    margin-left: 130px;
+  }
+
+  .advertisment .logos {
+    width: 90px;
+    height: 90px;
+    padding: 1.5rem;
+    border-radius: 0;
+    margin-left: 310px;
+  }
+
+  .advertisment p,
+  .advertisment h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--light-theme-text);
+  }
+
+  .company {
+    width: 120px;
+    border: none;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color: #5964e0;
+  }
+
+  .advertisment img {
+    border-radius: 10px;
+    margin-top: 15px;
+    left: -310px;
+  }
+
+  .location {
+    color: #5964e0;
+  }
+
+  .position {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contentbutton {
+    background-color: #5964e0;
+    color: aliceblue;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 8%;
+    border: none;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+
+  .description,
+  .contents,
+  ul,
+  .role,
+  ol {
+    line-height: 30px;
+    color: #6e8098;
+    margin-bottom: 20px;
+  }
+
+  ol p,
+  ul p {
+    color: #5964e0;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-top: -4px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-inline: 30rem;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  header {
+    width: 100%;
+    border-radius: 0 0 0 50px;
+  }
+
+  main {
+    padding: 3rem;
+    gap: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .advertisment,
+  .content {
+    background-color: var(--light-theme);
+    width: 750px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    padding: 2.5rem;
+    margin-top: -200px;
+  }
+
+  .advertisment {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -200px;
+  }
+
+  .first {
+    padding: 1rem;
+    margin-left: -10px;
+  }
+
+  .website {
+    margin-left: 130px;
+  }
+
+  .advertisment .logos {
+    width: 90px;
+    height: 90px;
+    padding: 1.5rem;
+    border-radius: 0;
+    margin-left: 310px;
+  }
+
+  .advertisment p,
+  .advertisment h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--light-theme-text);
+  }
+
+  .company {
+    width: 120px;
+    border: none;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color: #5964e0;
+  }
+
+  .advertisment img {
+    border-radius: 10px;
+    margin-top: 15px;
+    left: -310px;
+  }
+
+  .location {
+    color: #5964e0;
+  }
+
+  .firstPosition {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h5 {
+    color: var(--light-theme-text);
+  }
+
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contentbutton {
+    background-color: #5964e0;
+    color: aliceblue;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 8%;
+    border: none;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+
+  .searchButtons {
+    width: 279px;
+    background-color: #5964e0;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .description,
+  .contents,
+  ul,
+  .role,
+  ol {
+    line-height: 30px;
+    color: #6e8098;
+    margin-bottom: 20px;
+  }
+
+  ol p,
+  ul p {
+    color: #5964e0;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-top: -4px;
+  }
+
+  .description h3,
+  .content {
+    color: var(--light-theme-text);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light-theme);
+    padding-inline: 4rem;
+  }
+
+  .footer h4 {
+    color: var(--light-theme-text);
+  }
+
+  .filter input {
+    background-color: var(--light-theme);
+  }
+
+  .filter-button {
+    background-color: transparent;
+  }
+}

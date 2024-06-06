@@ -1,0 +1,28 @@
+.toast {
+  width: 50%;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  display: none;
+}
+
+.toast h3 {
+  color: var(--light-theme-text);
+  padding: 1rem;
+}
+
+.toast img {
+  padding: 1rem;
+}
+
+.toast button {
+  background-color: violet;
+  color: var(--light-theme-text);
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+}

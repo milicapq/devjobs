@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+:root {
+  --light-theme: #ffffff;
+  --light-theme-text: black;
+  --gray-theme: #f4f6f8;
+  --blue-theme: #19202d;
+  --blue-theme-text: white;
+  --dark-theme: #121721;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body:has(main:empty) .filter {
+  display: none;
+}
+
+body {
+  background-color: var(--gray-theme);
+  font-family: "Kumb Sans", sans-serif;
+}
+
+body:has(#switch:checked) {
+  --light-theme: var(--blue-theme);
+  --gray-theme: var(--dark-theme);
+  --light-theme-text: var(--blue-theme-text);
+}
+
+input[type="text"],
+input[type="text"]:focus,
+input[type="text"]:focus-visible {
+  border: 0;
+  outline: none;
+}
+
+header {
+  background-image: url(../assets/mobile/bg-pattern-header.svg);
+  background-size: auto;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
+}
+
+.switch-input > img {
+  width: 20px;
+  height: 20px;
+}
+
+.switch {
+  background-color: #ffffff;
+  width: 60px;
+  height: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
+}
+
+.switch label {
+  display: inline-flex;
+  color: #ffffff;
+  width: 40px;
+  height: 20px;
+  border-radius: 30px;
+  padding: 0;
+  align-items: center;
+}
+
+.switch span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #5964e0;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.switch input[type="checkbox"] {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+}
+
+.switch input:checked + label > span {
+  transform: translateX(100%);
+}
+
+.filter button {
+  border: 0;
+}
+
+.card {
+  background-color: var(--light-theme);
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.logos {
+  width: 50px;
+  height: 45px;
+  border-radius: 10px;
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  padding: 0.5rem;
+}
+
+.time {
+  display: flex;
+  gap: 1rem;
+}
+
+p {
+  color: #6e8098;
+  margin-top: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  color: #5964e0;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-inline: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+label {
+  color: var(--light-theme-text);
+  font-weight: 700;
+}

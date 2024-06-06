@@ -1,0 +1,56 @@
+@media only screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    position: relative;
+  }
+
+  .filterImg {
+    display: none;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-theme);
+    width: 90%;
+    padding: 0.3rem;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+  }
+
+  .filter-location {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .filter-location > img {
+    margin-right: 10px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .filter-check {
+    display: flex;
+  }
+
+  .filter-check label {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .filter button {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}

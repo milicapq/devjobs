@@ -1,0 +1,34 @@
+@media only screen and (min-width:992px ) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 8rem;
+        gap:3rem;
+        margin-left: 40px;
+        width: 85%;
+    }
+    .filter{
+        width: 79%;
+        display: flex;
+        margin-left: 50px;
+    }
+    label p{
+        color:var(--light-theme-text);
+    }
+    header{
+        padding-inline: 11rem;
+        width: 100%;
+    }
+   
+    .searchButtons{
+        background-color:#5964E0;
+    }
+    .filter-check, .filter-location{
+       margin-left: 250px;
+    }
+    .filter input{
+        margin-left: 20px;
+        background-color: var(--light-theme);
+    }
+    }
